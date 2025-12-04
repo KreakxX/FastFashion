@@ -1,7 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, Leaf } from "lucide-react";
+import {
+  Menu,
+  X,
+  Leaf,
+  Palette,
+  ArrowRight,
+  Factory,
+  LeafIcon,
+  Plane,
+  ShoppingBag,
+  Shirt,
+  Trash,
+} from "lucide-react";
 
 export default function Home() {
   const stats = [
@@ -138,7 +150,63 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="pollution" className="py-20 md:py-28 bg-muted/30">
+      <section id="workflow" className="py-20 md:py-28 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
+              Fast Fashion visualized
+            </h2>
+          </div>
+
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
+            {[
+              {
+                icon: <Palette className="text-pink-500 w-8 h-8" />,
+                label: "Design & Trends",
+              },
+              {
+                icon: <LeafIcon className="text-green-500 w-8 h-8" />,
+                label: "Materials",
+              },
+              {
+                icon: <Factory className="text-gray-700 w-8 h-8" />,
+                label: "Production",
+              },
+              {
+                icon: <Plane className="text-blue-500 w-8 h-8" />,
+                label: "Transport",
+              },
+              {
+                icon: <ShoppingBag className="text-yellow-500 w-8 h-8" />,
+                label: "Retail & Marketing",
+              },
+              {
+                icon: <Shirt className="text-purple-500 w-8 h-8" />,
+                label: "Consumption",
+              },
+              {
+                icon: <Trash className="text-red-500 w-8 h-8" />,
+                label: "Waste",
+              },
+            ].map((step, index) => (
+              <div key={index} className="flex items-center gap-4 md:gap-6">
+                <div className="flex flex-col items-center justify-center w-27 h-27 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/10 hover:shadow-lg hover:border-primary/30 transition-all p-4">
+                  {step.icon}
+                  <span className="text-sm md:text-base font-medium text-foreground text-center">
+                    {step.label}
+                  </span>
+                </div>
+
+                {index < 6 && (
+                  <ArrowRight className="text-foreground/50 w-6 h-6 md:w-8 md:h-8" />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="pollution" className="py-15  bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
