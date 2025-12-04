@@ -43,7 +43,7 @@ export default function Home() {
     {
       title: "Clothing Demand",
       description:
-        "The global demand for clothing has been increasing every single year. Between 2000 and 2025, the demand for garments nearly doubled, and experts expect this growth trend to continue until at least 2030. A major part of this rise is driven by fast-fashion culture, which focuses on producing new collections as quickly and cheaply as possible. This culture evolved because people buy more clothes while wearing them less — a clear example of the principle of supply and demand..However, this system comes with severe consequences for the environment.  ",
+        "The global demand for clothing has been increasing every single year. Between 2000 and 2025, the demand for garments nearly doubled, and experts expect this growth trend to continue until at least 2030. A major part of this rise is driven by fast-fashion culture, which focuses on producing new collections as quickly and cheaply as possible. This culture evolved because people buy more clothes while wearing them less — a clear example of the principle of supply and demand.However, this system comes with severe consequences for the environment.  ",
       image: "/FashFaschionMarket.jpg",
     },
     {
@@ -53,7 +53,7 @@ export default function Home() {
       image: "/C02comparision.jpg",
     },
     {
-      title: "Envrionmental damage",
+      title: "Environmental damage",
       description:
         "But the environmental damage goes far beyond CO₂. One of the most dangerous aspects of textile production is the dyeing process. The chemicals used to dye clothes are often extremely toxic, containing heavy metals and other pollutants. In many producing countries, factories dump these chemical dyes directly into rivers, poisoning ecosystems and contaminating drinking water. Since fast fashion relies on very low production costs, companies often avoid investing in environmentally friendly waste-treatment systems. ",
       image: "/toxicwaste.jpg",
@@ -65,7 +65,7 @@ export default function Home() {
       image: "/FossilFashio.jpg",
     },
     {
-      title: "Work Envrionment",
+      title: "Work Environment",
       description:
         "The low prices of fast fashion also come at a human cost. Workers in garment factories often face dangerous working conditions, extremely low wages, and excessive working hours. Many employees are underaged, working 11 or more hours a day, seven days a week, just to meet the production deadlines set by Western companies. ",
       image: "/FastFashionFabric.jpg",
@@ -86,7 +86,7 @@ export default function Home() {
       icon: "🌱",
     },
     {
-      title: "Second hand & more wearing",
+      title: "Second-hand & more wearing",
       description:
         "the most environmentally friendly option is to wear your clothes more often, buy second-hand items, and choose quality over quantity when purchasing new clothing. ",
       icon: "♻️",
@@ -310,58 +310,43 @@ export default function Home() {
 
           <ul className="space-y-4 list-disc list-inside text-foreground/80">
             <li>
-              Ellen MacArthur Foundation.{" "}
               <a
-                href="https://ellenmacarthurfoundation.org/"
+                href="https://earth.org/fast-fashions-detrimental-effect-on-the-environment/"
                 className="text-primary underline"
               >
-                https://ellenmacarthurfoundation.org/
+                https://earth.org/fast-fashions-detrimental-effect-on-the-environment/
               </a>
             </li>
             <li>
-              McKinsey & Company, “The State of Fashion 2025.”{" "}
               <a
-                href="https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion"
+                href="https://hindbag.fr/de-de/blogs/mode-responsable/conditions-travail-fast-fashion"
                 className="text-primary underline"
               >
-                https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion
+                https://hindbag.fr/de-de/blogs/mode-responsable/conditions-travail-fast-fashion
               </a>
             </li>
             <li>
-              UN Environment Programme (UNEP), “Fashion and the Environment.”{" "}
               <a
-                href="https://www.unep.org/resources/report/fashion-and-environment"
+                href="https://www.meegle.com/en_us/topics/circular-economy-modeling/fast-fashion-alternatives"
                 className="text-primary underline"
               >
-                https://www.unep.org/resources/report/fashion-and-environment
+                https://www.meegle.com/en_us/topics/circular-economy-modeling/fast-fashion-alternatives
               </a>
             </li>
             <li>
-              World Bank, “Water Use in Textile Production.”{" "}
               <a
-                href="https://www.worldbank.org/en/topic/water/overview"
+                href="https://academic.oup.com/jcr/advance-article-abstract/doi/10.1093/jcr/ucaf032/8149194?redirectedFrom=fulltext&login=false"
                 className="text-primary underline"
               >
-                https://www.worldbank.org/en/topic/water/overview
+                https://academic.oup.com/jcr/advance-article-abstract/doi/10.1093/jcr/ucaf032/8149194?redirectedFrom=fulltext&login=false
               </a>
             </li>
             <li>
-              Textile Exchange, “Preferred Fiber & Materials Market Report
-              2024.”{" "}
               <a
-                href="https://textileexchange.org/"
+                href="https://www.handelszeitung.ch/specials/kreislaufwirtschaft-2024/die-fast-fashion-industrie-fordert-eine-kultur-des-uberkonsums-752350"
                 className="text-primary underline"
               >
-                https://textileexchange.org/
-              </a>
-            </li>
-            <li>
-              Greenpeace, “Pollution in the Fashion Industry.”{" "}
-              <a
-                href="https://www.greenpeace.org/international/"
-                className="text-primary underline"
-              >
-                https://www.greenpeace.org/international/
+                https://www.handelszeitung.ch/specials/kreislaufwirtschaft-2024/die-fast-fashion-industrie-fordert-eine-kultur-des-uberkonsums-752350
               </a>
             </li>
           </ul>
